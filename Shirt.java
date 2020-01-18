@@ -2,6 +2,8 @@ public class Shirt {
 
   public int shirtID = 0; // 預設的襯衫 ID
   public String description = "-description required-"; //預設的說明
+  public String size;
+  public int quantity;
   
   // 顏色碼 R=紅色, B=藍色, G=綠色, U=未定
   public char colorCode = 'U';
