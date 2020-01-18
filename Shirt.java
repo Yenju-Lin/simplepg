@@ -4,6 +4,7 @@ public class Shirt {
   public String description = "-description required-"; //預設的說明
   public String size;
   public int quantity;
+  public int width;
   
   // 顏色碼 R=紅色, B=藍色, G=綠色, U=未定
   public char colorCode = 'U';
